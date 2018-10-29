@@ -1,0 +1,50 @@
+{
+  "name": "@um/hub",
+  "version": "0.1.0",
+  "description": "Umbiliko hub pod",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbiliko/um-hub.git"
+  },
+  "keywords": [
+    "mongoose",
+    "sequelize",
+    "json",
+    "squema",
+    "pod",
+    "hub"
+  ],
+  "author": "Lucas Martinez",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/umbiliko/um-hub/issues"
+  },
+  "homepage": "https://github.com/umbiliko/um-hub#readme",
+  "dependencies": {
+    "bookshelf": "^0.13.3",
+    "knex": "^0.15.2",
+    "mongoose": "^5.3.6",
+    "sequelize": "^4.41.0",
+    "sequelize-typescript": "^1.0.0-alpha.4"
+  },
+  "scripts": {
+    "build-ts": "tsc",
+    "test": "jest --forceExit --coverage --verbose",
+    "watch-ts": "tsc -w",
+    "watch-test": "npm run test -- --watchAll"
+  },
+  "devDependencies": {
+    "@um/types": "^0.1.0",
+    "@types/async": "^2.0.45",
+    "@types/bookshelf": "^0.9.9",
+    "@types/jest": "^22.1.3",
+    "@types/mongoose": "^5.2.20",
+    "chai": "^4.1.2",
+    "concurrently": "^3.5.1",
+    "jest": "^22.0.4",
+    "ts-jest": "^22.0.4",
+    "tslint": "^5.9.1",
+    "typescript": "^3.1.3"
+  }
+}
